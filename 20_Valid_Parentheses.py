@@ -5,6 +5,7 @@ class Solution:
 
         opened = ['(', '{', '[']
         closed = [')', '}', ']']
+        temp = 0
 
         if len(s) == 0 or len(s) % 2 != 0:
             return False
