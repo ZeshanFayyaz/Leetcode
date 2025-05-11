@@ -7,7 +7,7 @@ class Solution:
         right = 0
 
         for right in range(len(s)):
-            temp = k[right]
+            temp = s[right]
             count[temp] = 1 + count.get(temp, 0)
 
             if (right - left + 1) - max(count.values()) > k:
